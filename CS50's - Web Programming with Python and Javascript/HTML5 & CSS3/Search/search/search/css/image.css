@@ -21,6 +21,7 @@ h1 {
     color: white;
     text-align: center;
     font-family: sans-serif;
+    cursor: default;
 }
 
 h3 {
@@ -28,6 +29,7 @@ h3 {
     position: absolute;
     top: 25%;
     right: 38.5%;
+    cursor: default;
 }
 
 .conteiner {
@@ -89,9 +91,24 @@ i {
 .images {
     color: white;
     padding: 0 5px;
+    text-decoration: none;
 }
 
 .advanced {
     color: white;
     padding: 0 5px;
+    text-decoration: none;
+}
+
+.images:hover {
+    text-decoration: underline;
+}
+
+.advanced:hover {
+    text-decoration: underline;
+}
+
+.image_text:hover {
+    background-color: rgb(59, 59, 59);
+    border: none;
 }

@@ -20,11 +20,7 @@ h1 {
     color: white;
     text-align: center;
     font-family: sans-serif;
-}
-
-h3 {
-    color: blue;
-
+    cursor: default;
 }
 
 .link{
@@ -38,11 +34,21 @@ h3 {
 .images {
     color: white;
     padding: 0 5px;
+    text-decoration: none;
 }
 
 .advanced {
     color: white;
     padding: 0 5px;
+    text-decoration: none;
+}
+
+.images:hover {
+    text-decoration: underline;
+}
+
+.advanced:hover {
+    text-decoration: underline;
 }
 
 .box {
@@ -85,6 +91,11 @@ h3 {
         border-image-repeat: initial;
 }
 
+.input:hover {
+    background-color: rgb(59, 59, 59);
+    border: none;
+}
+
 i {
     color: grey;
     position: absolute;
@@ -102,6 +113,12 @@ i {
     border-radius: 4px;
     cursor: pointer;
     color: white; 
+    border: 1px solid #303134;
+}
+
+.search:hover {
+    outline: 1px solid rgb(118, 118, 118);
+    border-radius: 4px;
 }
 
 .lucky {
@@ -114,4 +131,10 @@ i {
     cursor: pointer;
     color: white;
     font-size: 15px;
+    border: 1px solid #303134;
+}
+
+.lucky:hover {
+    outline: 1px solid rgb(118, 118, 118);
+    border-radius: 4px;
 }
